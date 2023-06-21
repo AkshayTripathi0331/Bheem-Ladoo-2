@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chota Bheem Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="mycanvas"></canvas>
+        <div id="gameOverContainer">
+            <h1 id="gameOverText">Game Over!</h1>
+            <button id="restartButton">Restart</button>
+            <button id="quitButton">Quit Game</button>
+        </div>
+    </div>
+    <div id="startContainer">
+        <h1 id="gameTitle">Chota Bheem loves Ladoo</h1>
+        <button id="startButton">Start Game</button>
+        <div id="gifContainer">
+            <img src="images/bheemLadoo.gif" alt="Eating GIF">
+        </div>
+    </div>
+
+    <audio id="bgMusic" src="music/bgm.mp3" preload="auto"></audio>
+    <audio id="eatSound" src="music/eat.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
